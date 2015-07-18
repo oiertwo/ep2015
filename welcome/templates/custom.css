@@ -1,0 +1,50 @@
+/*Some css fixes to use night theme with IPython slides*/
+/*@import url("font-awesome/css/font-awesome.min.css");*/
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css");
+
+body { 
+  background-image: url('imgs/background.svg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left bottom;
+  background-size: 100% 100%;
+}
+
+body {
+    font-size:100%;
+    line-height:1.125em; /* 16×1.125=18 */
+
+}.bodytext p {
+    font-size:0.875em;
+
+}.sidenote {
+    font-size:0.75em;
+}
+
+.reveal {
+    background-image: url('imgs/logo_docheader.eps');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: 450px;
+}
+
+/*
+code,pre{
+    padding:0 3px 2px;
+    font-family:monospace;
+    font-size:11px;
+    color:#aaaaaa;
+    border-radius:3px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px}
+
+code{
+    padding:2px 4px;
+    color:#d14;
+    background-color:#999999;
+    border:1px solid #e1e1e8;
+    white-space:nowrap
+}*/
+
